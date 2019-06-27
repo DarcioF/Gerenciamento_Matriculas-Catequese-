@@ -1,0 +1,19 @@
+.banner{
+	width: 960px;
+	height: 350px;
+	margin: 0 auto;
+	animation: slide 10s infinite;
+	animation-duration: alternate;
+}
+
+@keyframes slide{
+	0%,30%{
+		background-image: url(../img/catequese.png);
+	}
+	35%, 65%{
+		background-image: url(../img/catequese1.png);
+	}
+	70%, 100%{
+		background-image: url(../img/02.jpg);
+	}
+}
